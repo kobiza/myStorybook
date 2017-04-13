@@ -1,5 +1,5 @@
 # myStorybook
 
-npm i
-npm run stoybook
-go to localhost:6006
+1. npm i
+2. npm run stoybook
+3. go to localhost:6006
