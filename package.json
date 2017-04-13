@@ -1,0 +1,35 @@
+{
+  "name": "kobiz-story-book",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "kobiz",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.3"
+  }
+}
